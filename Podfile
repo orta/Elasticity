@@ -1,6 +1,9 @@
 platform :ios, '9.0'
 platform :tvos, '9.0'
 
+use_frameworks!
+
+plugin 'cocoapods-expert-difficulty'
 plugin 'cocoapods-keys', {
     :project => "Elasticity",
     :targets => "ElastiTV",
@@ -11,11 +14,7 @@ plugin 'cocoapods-keys', {
 }
 
 def app_pods()
-  pod "NSURL+QueryDictionary", :git => "https://github.com/orta/NSURL-QueryDictionary.git", :branch => "patch-1"
-  pod "ISO8601DateFormatter", :git => "https://github.com/orta/iso-8601-date-formatter.git"
-  pod "EDColor", :git => "https://github.com/orta/color.git", :branch => "tvos"
-  pod 'LVTwitterOAuthClient', :git => "https://github.com/orta/LVTwitterOAuthClient.git", :branch => "tvos"
-  pod 'OAuthCore', :git => "https://github.com/orta/OAuthCore.git", :branch => "tvos"
+  
 
   pod 'Artsy+UIColors', :git => "https://github.com/artsy/Artsy-UIColors.git", :branch => "tvos"
 
@@ -29,7 +28,8 @@ def app_pods()
 end
 
 def platform_pods()
-  pod 'Artsy+Authentication', :git => "https://github.com/artsy/Artsy-Authentication.git", :branch => "tvos"
+  # pod 'Artsy+Authentication', :git => "https://github.com/artsy/Artsy-Authentication.git", :branch => "tvos"
+  pod "Artsy+Authentication", :path => "/Users/orta/dev/ios/libs/Artsy_Authentication"
 end
 
 target 'Elasticity' do

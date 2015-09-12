@@ -5,4 +5,6 @@ gem 'cocoapods-core', :git => 'https://github.com/CocoaPods/Core.git', :branch =
 gem 'xcodeproj', :git => 'https://github.com/CocoaPods/Xcodeproj.git', :branch => 'tvos-support'
 
 gem 'cocoapods-keys'
+gem 'cocoapods-expert-difficulty'
+
 gem 'cocoapods-deintegrate'

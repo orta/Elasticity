@@ -55,6 +55,7 @@ GEM
     cocoapods-deintegrate (0.2.1)
       cocoapods (~> 0.34)
     cocoapods-downloader (0.9.3)
+    cocoapods-expert-difficulty (1.0.0)
     cocoapods-keys (1.4.0)
       osx_keychain
     cocoapods-plugins (0.4.2)
@@ -87,6 +88,7 @@ DEPENDENCIES
   cocoapods!
   cocoapods-core!
   cocoapods-deintegrate
+  cocoapods-expert-difficulty
   cocoapods-keys
   xcodeproj!
 

@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1641265922AFC401FA6620D3 /* libPods-ElastiTV.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 06723DA4085E3CCA4F75E08B /* libPods-ElastiTV.a */; };
 		60AF28921BA4858500FF7238 /* ARDebugButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60AF28911BA4858500FF7238 /* ARDebugButton.swift */; };
 		60D2F1EA1BA4A68D00AD63F6 /* TVServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60D2F1E91BA4A68D00AD63F6 /* TVServices.framework */; };
 		60D2F1ED1BA4A68D00AD63F6 /* ServiceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D2F1EC1BA4A68D00AD63F6 /* ServiceProvider.swift */; };
@@ -24,7 +23,8 @@
 		60EFCEB01BA32D83002C70C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60EFCEAE1BA32D83002C70C3 /* Main.storyboard */; };
 		60EFCEB21BA32D83002C70C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60EFCEB11BA32D83002C70C3 /* Assets.xcassets */; };
 		60EFCEBD1BA32D83002C70C3 /* ElastiTVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EFCEBC1BA32D83002C70C3 /* ElastiTVTests.swift */; };
-		8E7594DD4B33E0A6F2EA86E8 /* libPods-Elasticity.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F3C47553FFA10C57818BA7BB /* libPods-Elasticity.a */; };
+		6486938CCBBE409C4673C6E7 /* Pods_Elasticity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EDD5B26A5803F9BDE258D03 /* Pods_Elasticity.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		B52D2BADD3B2580CA2CD1E18 /* Pods_ElastiTV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A4F47617E28898D0A0319D8 /* Pods_ElastiTV.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,7 +76,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		06723DA4085E3CCA4F75E08B /* libPods-ElastiTV.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ElastiTV.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EDD5B26A5803F9BDE258D03 /* Pods_Elasticity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Elasticity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B3958E0FC254689C3A04A73 /* Pods-ElastiTV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElastiTV.release.xcconfig"; path = "Pods/Target Support Files/Pods-ElastiTV/Pods-ElastiTV.release.xcconfig"; sourceTree = "<group>"; };
 		46D2CD3840A59FEA2FF2073A /* Pods-Elasticity.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Elasticity.release.xcconfig"; path = "Pods/Target Support Files/Pods-Elasticity/Pods-Elasticity.release.xcconfig"; sourceTree = "<group>"; };
 		60AF28911BA4858500FF7238 /* ARDebugButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARDebugButton.swift; sourceTree = "<group>"; };
@@ -109,9 +109,9 @@
 		60EFCED91BA456A0002C70C3 /* ElastictityKitiOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ElastictityKitiOS.h; sourceTree = "<group>"; };
 		60EFCEDB1BA456A0002C70C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		60EFCEE41BA45DC3002C70C3 /* ElastiTV.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = ElastiTV.entitlements; sourceTree = "<group>"; };
+		9A4F47617E28898D0A0319D8 /* Pods_ElastiTV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ElastiTV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1516C62DE0189DDE2C0F1E2 /* Pods-ElastiTV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElastiTV.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ElastiTV/Pods-ElastiTV.debug.xcconfig"; sourceTree = "<group>"; };
 		E544A1CC6357E2C912CB4814 /* Pods-Elasticity.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Elasticity.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Elasticity/Pods-Elasticity.debug.xcconfig"; sourceTree = "<group>"; };
-		F3C47553FFA10C57818BA7BB /* libPods-Elasticity.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Elasticity.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,7 +127,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E7594DD4B33E0A6F2EA86E8 /* libPods-Elasticity.a in Frameworks */,
+				6486938CCBBE409C4673C6E7 /* Pods_Elasticity.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,7 +142,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1641265922AFC401FA6620D3 /* libPods-ElastiTV.a in Frameworks */,
+				B52D2BADD3B2580CA2CD1E18 /* Pods_ElastiTV.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -160,8 +160,8 @@
 			isa = PBXGroup;
 			children = (
 				60D2F1E91BA4A68D00AD63F6 /* TVServices.framework */,
-				06723DA4085E3CCA4F75E08B /* libPods-ElastiTV.a */,
-				F3C47553FFA10C57818BA7BB /* libPods-Elasticity.a */,
+				9A4F47617E28898D0A0319D8 /* Pods_ElastiTV.framework */,
+				0EDD5B26A5803F9BDE258D03 /* Pods_Elasticity.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -383,6 +383,7 @@
 		60EFCE791BA232C3002C70C3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0710;
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = Artsy;
 				TargetAttributes = {
