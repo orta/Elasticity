@@ -14,6 +14,16 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>ElasticityKitWatch.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>ElastictityKitiOS.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -33,6 +43,16 @@
 			<true/>
 		</dict>
 		<key>60EFCEB71BA32D83002C70C3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>60EFCEC91BA45680002C70C3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>60EFCED61BA456A0002C70C3</key>
 		<dict>
 			<key>primary</key>
 			<true/>
