@@ -1,15 +1,7 @@
 GIT
-  remote: https://github.com/CocoaPods/Xcodeproj.git
-  revision: b208640ffd04ffb1ec1becc085e8b3f3759ff8f1
-  branch: tvos-support
-  specs:
-    xcodeproj (0.27.2)
-      activesupport (>= 3)
-      claide (~> 0.9.1)
-      colored (~> 1.2)
-
-PATH
-  remote: /Users/orta/dev/ruby/Rainforest/cocoaPods
+  remote: https://github.com/CocoaPods/CocoaPods.git
+  revision: 25bcc14b04260939144496cc08f091061f5500de
+  branch: tvos
   specs:
     cocoapods (0.39.0.beta.4)
       activesupport (>= 3.2.15)
@@ -27,6 +19,26 @@ PATH
       nap (~> 1.0)
       xcodeproj (~> 0.27.2)
 
+GIT
+  remote: https://github.com/CocoaPods/Core.git
+  revision: f60d8b4f28223ea2e02316efa52a612153d7fe2e
+  branch: tvos-support
+  specs:
+    cocoapods-core (0.39.0.beta.4)
+      activesupport (>= 3.2.15)
+      fuzzy_match (~> 2.0.4)
+      nap (~> 1.0)
+
+GIT
+  remote: https://github.com/CocoaPods/Xcodeproj.git
+  revision: b208640ffd04ffb1ec1becc085e8b3f3759ff8f1
+  branch: tvos-support
+  specs:
+    xcodeproj (0.27.2)
+      activesupport (>= 3)
+      claide (~> 0.9.1)
+      colored (~> 1.2)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -40,10 +52,6 @@ GEM
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
     claide (0.9.1)
-    cocoapods-core (0.39.0.beta.4)
-      activesupport (>= 3.2.15)
-      fuzzy_match (~> 2.0.4)
-      nap (~> 1.0)
     cocoapods-deintegrate (0.2.1)
       cocoapods (~> 0.34)
     cocoapods-downloader (0.9.3)
@@ -77,6 +85,7 @@ PLATFORMS
 
 DEPENDENCIES
   cocoapods!
+  cocoapods-core!
   cocoapods-deintegrate
   cocoapods-keys
   xcodeproj!

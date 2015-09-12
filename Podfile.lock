@@ -1,1 +1,98 @@
+PODS:
+  - Artsy+Authentication (1.0.0):
+    - ISO8601DateFormatter
+    - LVTwitterOAuthClient
+    - NSURL+QueryDictionary
+  - Artsy+UIColors (1.0.0):
+    - EDColor (~> 1.0)
+  - Artsy+UIFonts (1.1.0)
+  - EDColor (1.0.1)
+  - ISO8601DateFormatter (0.7.1)
+  - Keys (1.0.0)
+  - LVTwitterOAuthClient (0.3.0):
+    - OAuthCore
+  - NSData+Base64 (1.0.0)
+  - NSURL+QueryDictionary (1.1.0)
+  - OAuthCore (0.0.1):
+    - NSData+Base64
+
+DEPENDENCIES:
+  - Artsy+Authentication (from `https://github.com/artsy/Artsy-Authentication.git`,
+    branch `tvos`)
+  - Artsy+UIColors (from `https://github.com/artsy/Artsy-UIColors.git`, branch `tvos`)
+  - Artsy+UIFonts (from `https://github.com/artsy/Artsy-UIFonts.git`, branch `old_fonts_new_lib_tv`)
+  - EDColor (from `https://github.com/orta/color.git`, branch `tvos`)
+  - ISO8601DateFormatter (from `https://github.com/orta/iso-8601-date-formatter.git`)
+  - Keys (from `Pods/CocoaPodsKeys`)
+  - LVTwitterOAuthClient (from `https://github.com/orta/LVTwitterOAuthClient.git`,
+    branch `tvos`)
+  - NSURL+QueryDictionary (from `https://github.com/orta/NSURL-QueryDictionary.git`,
+    branch `patch-1`)
+  - OAuthCore (from `https://github.com/orta/OAuthCore.git`, branch `tvos`)
+
+EXTERNAL SOURCES:
+  Artsy+Authentication:
+    :branch: tvos
+    :git: https://github.com/artsy/Artsy-Authentication.git
+  Artsy+UIColors:
+    :branch: tvos
+    :git: https://github.com/artsy/Artsy-UIColors.git
+  Artsy+UIFonts:
+    :branch: old_fonts_new_lib_tv
+    :git: https://github.com/artsy/Artsy-UIFonts.git
+  EDColor:
+    :branch: tvos
+    :git: https://github.com/orta/color.git
+  ISO8601DateFormatter:
+    :git: https://github.com/orta/iso-8601-date-formatter.git
+  Keys:
+    :path: Pods/CocoaPodsKeys
+  LVTwitterOAuthClient:
+    :branch: tvos
+    :git: https://github.com/orta/LVTwitterOAuthClient.git
+  NSURL+QueryDictionary:
+    :branch: patch-1
+    :git: https://github.com/orta/NSURL-QueryDictionary.git
+  OAuthCore:
+    :branch: tvos
+    :git: https://github.com/orta/OAuthCore.git
+
+CHECKOUT OPTIONS:
+  Artsy+Authentication:
+    :commit: c59576823b11e43500819bd5b64486e519e29a2d
+    :git: https://github.com/artsy/Artsy-Authentication.git
+  Artsy+UIColors:
+    :commit: 2b924b064b2e942ab299a042732c8ee94804f717
+    :git: https://github.com/artsy/Artsy-UIColors.git
+  Artsy+UIFonts:
+    :commit: aecd33400e7be8819d989ec944f0eed6e43ddd94
+    :git: https://github.com/artsy/Artsy-UIFonts.git
+  EDColor:
+    :commit: e066ff05baa2d71919e1802d7450375ebcb36eeb
+    :git: https://github.com/orta/color.git
+  ISO8601DateFormatter:
+    :commit: b34717f25e709b31963b44540845fcd79b2f1ccc
+    :git: https://github.com/orta/iso-8601-date-formatter.git
+  LVTwitterOAuthClient:
+    :commit: 5515e0c79aa7db79706c388cc83da6d4d904f346
+    :git: https://github.com/orta/LVTwitterOAuthClient.git
+  NSURL+QueryDictionary:
+    :commit: e4aaef793fc29e5a5170c58e641dcde1471be1d2
+    :git: https://github.com/orta/NSURL-QueryDictionary.git
+  OAuthCore:
+    :commit: 5f561f720f0e9523c8b4c6c3400316b94268a44d
+    :git: https://github.com/orta/OAuthCore.git
+
+SPEC CHECKSUMS:
+  Artsy+Authentication: e2da703888795cb150c5de1431026ec7930b622f
+  Artsy+UIColors: 086dc3cf3fa8672f765302002e68969c83b202b2
+  Artsy+UIFonts: 28db6b1c8022fc3bc2e62db68f32381e1f33aa6f
+  EDColor: b1ea86b6aea4016c5d2a9b4dc40774f212e3bc43
+  ISO8601DateFormatter: 7823556029098620ef8d0ea45bbd7af8c2be300f
+  Keys: 7d2ff6ff42f6903358267ce56e9392f83c31acfe
+  LVTwitterOAuthClient: 617b2f8ada1b325300dfe33d6cd1b718b32f9774
+  NSData+Base64: 4e84902c4db907a15673474677e57763ef3903e4
+  NSURL+QueryDictionary: 975cb80f9d406c0d80b6eb88eb17c9d9801d02d2
+  OAuthCore: 9dff65b43c4c54cf1260a06a34066916aa7453f4
+
 COCOAPODS: 0.39.0.beta.4

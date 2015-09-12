@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1641265922AFC401FA6620D3 /* libPods-ElastiTV.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 06723DA4085E3CCA4F75E08B /* libPods-ElastiTV.a */; };
+		60AF28921BA4858500FF7238 /* ARDebugButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60AF28911BA4858500FF7238 /* ARDebugButton.swift */; };
+		60D2F1EA1BA4A68D00AD63F6 /* TVServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60D2F1E91BA4A68D00AD63F6 /* TVServices.framework */; };
+		60D2F1ED1BA4A68D00AD63F6 /* ServiceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D2F1EC1BA4A68D00AD63F6 /* ServiceProvider.swift */; };
+		60D2F1F11BA4A68D00AD63F6 /* TopShelfExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 60D2F1E71BA4A68D00AD63F6 /* TopShelfExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		60D2F1F71BA4A85F00AD63F6 /* pierre-auguste-renoir-two-sisters-on-the-terrace-1881.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 60D2F1F61BA4A85F00AD63F6 /* pierre-auguste-renoir-two-sisters-on-the-terrace-1881.jpg */; };
 		60EFCE851BA232C3002C70C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EFCE841BA232C3002C70C3 /* AppDelegate.swift */; };
 		60EFCE871BA232C3002C70C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EFCE861BA232C3002C70C3 /* ViewController.swift */; };
 		60EFCE8A1BA232C3002C70C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60EFCE881BA232C3002C70C3 /* Main.storyboard */; };
@@ -18,13 +24,17 @@
 		60EFCEB01BA32D83002C70C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60EFCEAE1BA32D83002C70C3 /* Main.storyboard */; };
 		60EFCEB21BA32D83002C70C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60EFCEB11BA32D83002C70C3 /* Assets.xcassets */; };
 		60EFCEBD1BA32D83002C70C3 /* ElastiTVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EFCEBC1BA32D83002C70C3 /* ElastiTVTests.swift */; };
-		60EFCECD1BA45680002C70C3 /* ElasticityKitWatch.h in Headers */ = {isa = PBXBuildFile; fileRef = 60EFCECC1BA45680002C70C3 /* ElasticityKitWatch.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		60EFCEDA1BA456A0002C70C3 /* ElastictityKitiOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 60EFCED91BA456A0002C70C3 /* ElastictityKitiOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		60EFCEDE1BA456A0002C70C3 /* ElastictityKitiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60EFCED71BA456A0002C70C3 /* ElastictityKitiOS.framework */; };
-		60EFCEDF1BA456A0002C70C3 /* ElastictityKitiOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 60EFCED71BA456A0002C70C3 /* ElastictityKitiOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8E7594DD4B33E0A6F2EA86E8 /* libPods-Elasticity.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F3C47553FFA10C57818BA7BB /* libPods-Elasticity.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		60D2F1EF1BA4A68D00AD63F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60EFCE791BA232C3002C70C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60D2F1E61BA4A68D00AD63F6;
+			remoteInfo = TopShelfExtension;
+		};
 		60EFCE961BA232C3002C70C3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 60EFCE791BA232C3002C70C3 /* Project object */;
@@ -39,23 +49,26 @@
 			remoteGlobalIDString = 60EFCEA71BA32D83002C70C3;
 			remoteInfo = ElastiTV;
 		};
-		60EFCEDC1BA456A0002C70C3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 60EFCE791BA232C3002C70C3 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 60EFCED61BA456A0002C70C3;
-			remoteInfo = ElastictityKitiOS;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		60D2F1F51BA4A68D00AD63F6 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				60D2F1F11BA4A68D00AD63F6 /* TopShelfExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		60EFCEE31BA456A0002C70C3 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				60EFCEDF1BA456A0002C70C3 /* ElastictityKitiOS.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -63,6 +76,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		06723DA4085E3CCA4F75E08B /* libPods-ElastiTV.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ElastiTV.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B3958E0FC254689C3A04A73 /* Pods-ElastiTV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElastiTV.release.xcconfig"; path = "Pods/Target Support Files/Pods-ElastiTV/Pods-ElastiTV.release.xcconfig"; sourceTree = "<group>"; };
+		46D2CD3840A59FEA2FF2073A /* Pods-Elasticity.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Elasticity.release.xcconfig"; path = "Pods/Target Support Files/Pods-Elasticity/Pods-Elasticity.release.xcconfig"; sourceTree = "<group>"; };
+		60AF28911BA4858500FF7238 /* ARDebugButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARDebugButton.swift; sourceTree = "<group>"; };
+		60D2F1E71BA4A68D00AD63F6 /* TopShelfExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TopShelfExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		60D2F1E91BA4A68D00AD63F6 /* TVServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TVServices.framework; path = Library/Frameworks/TVServices.framework; sourceTree = DEVELOPER_DIR; };
+		60D2F1EC1BA4A68D00AD63F6 /* ServiceProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceProvider.swift; sourceTree = "<group>"; };
+		60D2F1EE1BA4A68D00AD63F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60D2F1F61BA4A85F00AD63F6 /* pierre-auguste-renoir-two-sisters-on-the-terrace-1881.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pierre-auguste-renoir-two-sisters-on-the-terrace-1881.jpg"; sourceTree = "<group>"; };
 		60EFCE811BA232C3002C70C3 /* Elasticity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Elasticity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60EFCE841BA232C3002C70C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		60EFCE861BA232C3002C70C3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -82,21 +104,30 @@
 		60EFCEB81BA32D83002C70C3 /* ElastiTVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElastiTVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		60EFCEBC1BA32D83002C70C3 /* ElastiTVTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElastiTVTests.swift; sourceTree = "<group>"; };
 		60EFCEBE1BA32D83002C70C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		60EFCECA1BA45680002C70C3 /* ElasticityKitWatch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ElasticityKitWatch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		60EFCECC1BA45680002C70C3 /* ElasticityKitWatch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ElasticityKitWatch.h; sourceTree = "<group>"; };
 		60EFCECE1BA45680002C70C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		60EFCED71BA456A0002C70C3 /* ElastictityKitiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ElastictityKitiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		60EFCED91BA456A0002C70C3 /* ElastictityKitiOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ElastictityKitiOS.h; sourceTree = "<group>"; };
 		60EFCEDB1BA456A0002C70C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		60EFCEE41BA45DC3002C70C3 /* ElastiTV.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = ElastiTV.entitlements; sourceTree = "<group>"; };
+		D1516C62DE0189DDE2C0F1E2 /* Pods-ElastiTV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElastiTV.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ElastiTV/Pods-ElastiTV.debug.xcconfig"; sourceTree = "<group>"; };
+		E544A1CC6357E2C912CB4814 /* Pods-Elasticity.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Elasticity.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Elasticity/Pods-Elasticity.debug.xcconfig"; sourceTree = "<group>"; };
+		F3C47553FFA10C57818BA7BB /* libPods-Elasticity.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Elasticity.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		60D2F1E41BA4A68D00AD63F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60D2F1EA1BA4A68D00AD63F6 /* TVServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		60EFCE7E1BA232C3002C70C3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60EFCEDE1BA456A0002C70C3 /* ElastictityKitiOS.framework in Frameworks */,
+				8E7594DD4B33E0A6F2EA86E8 /* libPods-Elasticity.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,6 +142,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1641265922AFC401FA6620D3 /* libPods-ElastiTV.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,23 +153,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		60EFCEC61BA45680002C70C3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		60EFCED31BA456A0002C70C3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		60D2F1E81BA4A68D00AD63F6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				60D2F1E91BA4A68D00AD63F6 /* TVServices.framework */,
+				06723DA4085E3CCA4F75E08B /* libPods-ElastiTV.a */,
+				F3C47553FFA10C57818BA7BB /* libPods-Elasticity.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		60D2F1EB1BA4A68D00AD63F6 /* TopShelfExtension */ = {
+			isa = PBXGroup;
+			children = (
+				60D2F1F61BA4A85F00AD63F6 /* pierre-auguste-renoir-two-sisters-on-the-terrace-1881.jpg */,
+				60D2F1EC1BA4A68D00AD63F6 /* ServiceProvider.swift */,
+				60D2F1EE1BA4A68D00AD63F6 /* Info.plist */,
+			);
+			path = TopShelfExtension;
+			sourceTree = "<group>";
+		};
 		60EFCE781BA232C3002C70C3 = {
 			isa = PBXGroup;
 			children = (
@@ -147,7 +185,10 @@
 				60EFCEBB1BA32D83002C70C3 /* ElastiTVTests */,
 				60EFCECB1BA45680002C70C3 /* ElasticityKitWatch */,
 				60EFCED81BA456A0002C70C3 /* ElastictityKitiOS */,
+				60D2F1EB1BA4A68D00AD63F6 /* TopShelfExtension */,
+				60D2F1E81BA4A68D00AD63F6 /* Frameworks */,
 				60EFCE821BA232C3002C70C3 /* Products */,
+				7DBD318F854B1B2D883FD688 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -158,8 +199,7 @@
 				60EFCE951BA232C3002C70C3 /* ElasticityTests.xctest */,
 				60EFCEA81BA32D83002C70C3 /* ElastiTV.app */,
 				60EFCEB81BA32D83002C70C3 /* ElastiTVTests.xctest */,
-				60EFCECA1BA45680002C70C3 /* ElasticityKitWatch.framework */,
-				60EFCED71BA456A0002C70C3 /* ElastictityKitiOS.framework */,
+				60D2F1E71BA4A68D00AD63F6 /* TopShelfExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -195,6 +235,7 @@
 				60EFCEAE1BA32D83002C70C3 /* Main.storyboard */,
 				60EFCEB11BA32D83002C70C3 /* Assets.xcassets */,
 				60EFCEB31BA32D83002C70C3 /* Info.plist */,
+				60AF28911BA4858500FF7238 /* ARDebugButton.swift */,
 			);
 			path = ElastiTV;
 			sourceTree = "<group>";
@@ -226,41 +267,52 @@
 			path = ElastictityKitiOS;
 			sourceTree = "<group>";
 		};
+		7DBD318F854B1B2D883FD688 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D1516C62DE0189DDE2C0F1E2 /* Pods-ElastiTV.debug.xcconfig */,
+				3B3958E0FC254689C3A04A73 /* Pods-ElastiTV.release.xcconfig */,
+				E544A1CC6357E2C912CB4814 /* Pods-Elasticity.debug.xcconfig */,
+				46D2CD3840A59FEA2FF2073A /* Pods-Elasticity.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
-/* Begin PBXHeadersBuildPhase section */
-		60EFCEC71BA45680002C70C3 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				60EFCECD1BA45680002C70C3 /* ElasticityKitWatch.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		60EFCED41BA456A0002C70C3 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				60EFCEDA1BA456A0002C70C3 /* ElastictityKitiOS.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
 /* Begin PBXNativeTarget section */
-		60EFCE801BA232C3002C70C3 /* Elasticity */ = {
+		60D2F1E61BA4A68D00AD63F6 /* TopShelfExtension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 60EFCE9E1BA232C3002C70C3 /* Build configuration list for PBXNativeTarget "Elasticity" */;
+			buildConfigurationList = 60D2F1F41BA4A68D00AD63F6 /* Build configuration list for PBXNativeTarget "TopShelfExtension" */;
 			buildPhases = (
-				60EFCE7D1BA232C3002C70C3 /* Sources */,
-				60EFCE7E1BA232C3002C70C3 /* Frameworks */,
-				60EFCE7F1BA232C3002C70C3 /* Resources */,
-				60EFCEE31BA456A0002C70C3 /* Embed Frameworks */,
+				60D2F1E31BA4A68D00AD63F6 /* Sources */,
+				60D2F1E41BA4A68D00AD63F6 /* Frameworks */,
+				60D2F1E51BA4A68D00AD63F6 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				60EFCEDD1BA456A0002C70C3 /* PBXTargetDependency */,
+			);
+			name = TopShelfExtension;
+			productName = TopShelfExtension;
+			productReference = 60D2F1E71BA4A68D00AD63F6 /* TopShelfExtension.appex */;
+			productType = "com.apple.product-type.tv-app-extension";
+		};
+		60EFCE801BA232C3002C70C3 /* Elasticity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60EFCE9E1BA232C3002C70C3 /* Build configuration list for PBXNativeTarget "Elasticity" */;
+			buildPhases = (
+				7788D33FC671702016E15405 /* Check Pods Manifest.lock */,
+				60EFCE7D1BA232C3002C70C3 /* Sources */,
+				60EFCE7E1BA232C3002C70C3 /* Frameworks */,
+				60EFCE7F1BA232C3002C70C3 /* Resources */,
+				60EFCEE31BA456A0002C70C3 /* Embed Frameworks */,
+				CC49ABD354BDB87FC556EBD5 /* Embed Pods Frameworks */,
+				12B54A3F8867BC88565A7D53 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
 			);
 			name = Elasticity;
 			productName = Elasticity;
@@ -289,13 +341,18 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 60EFCEBF1BA32D83002C70C3 /* Build configuration list for PBXNativeTarget "ElastiTV" */;
 			buildPhases = (
+				0466AF6429A033000B5C9658 /* Check Pods Manifest.lock */,
 				60EFCEA41BA32D83002C70C3 /* Sources */,
 				60EFCEA51BA32D83002C70C3 /* Frameworks */,
 				60EFCEA61BA32D83002C70C3 /* Resources */,
+				60D2F1F51BA4A68D00AD63F6 /* Embed App Extensions */,
+				A70FB622BB6D47FF37A9100B /* Embed Pods Frameworks */,
+				FE3847289BE59B02F699C732 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				60D2F1F01BA4A68D00AD63F6 /* PBXTargetDependency */,
 			);
 			name = ElastiTV;
 			productName = ElastiTV;
@@ -320,42 +377,6 @@
 			productReference = 60EFCEB81BA32D83002C70C3 /* ElastiTVTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		60EFCEC91BA45680002C70C3 /* ElasticityKitWatch */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 60EFCED11BA45680002C70C3 /* Build configuration list for PBXNativeTarget "ElasticityKitWatch" */;
-			buildPhases = (
-				60EFCEC51BA45680002C70C3 /* Sources */,
-				60EFCEC61BA45680002C70C3 /* Frameworks */,
-				60EFCEC71BA45680002C70C3 /* Headers */,
-				60EFCEC81BA45680002C70C3 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = ElasticityKitWatch;
-			productName = ElasticityKitWatch;
-			productReference = 60EFCECA1BA45680002C70C3 /* ElasticityKitWatch.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		60EFCED61BA456A0002C70C3 /* ElastictityKitiOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 60EFCEE01BA456A0002C70C3 /* Build configuration list for PBXNativeTarget "ElastictityKitiOS" */;
-			buildPhases = (
-				60EFCED21BA456A0002C70C3 /* Sources */,
-				60EFCED31BA456A0002C70C3 /* Frameworks */,
-				60EFCED41BA456A0002C70C3 /* Headers */,
-				60EFCED51BA456A0002C70C3 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = ElastictityKitiOS;
-			productName = ElastictityKitiOS;
-			productReference = 60EFCED71BA456A0002C70C3 /* ElastictityKitiOS.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -365,6 +386,10 @@
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = Artsy;
 				TargetAttributes = {
+					60D2F1E61BA4A68D00AD63F6 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 23KMWZ572J;
+					};
 					60EFCE801BA232C3002C70C3 = {
 						CreatedOnToolsVersion = 7.1;
 					};
@@ -388,12 +413,6 @@
 						CreatedOnToolsVersion = 7.1;
 						TestTargetID = 60EFCEA71BA32D83002C70C3;
 					};
-					60EFCEC91BA45680002C70C3 = {
-						CreatedOnToolsVersion = 7.1;
-					};
-					60EFCED61BA456A0002C70C3 = {
-						CreatedOnToolsVersion = 7.1;
-					};
 				};
 			};
 			buildConfigurationList = 60EFCE7C1BA232C3002C70C3 /* Build configuration list for PBXProject "Elasticity" */;
@@ -413,13 +432,20 @@
 				60EFCE941BA232C3002C70C3 /* ElasticityTests */,
 				60EFCEA71BA32D83002C70C3 /* ElastiTV */,
 				60EFCEB71BA32D83002C70C3 /* ElastiTVTests */,
-				60EFCEC91BA45680002C70C3 /* ElasticityKitWatch */,
-				60EFCED61BA456A0002C70C3 /* ElastictityKitiOS */,
+				60D2F1E61BA4A68D00AD63F6 /* TopShelfExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		60D2F1E51BA4A68D00AD63F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60D2F1F71BA4A85F00AD63F6 /* pierre-auguste-renoir-two-sisters-on-the-terrace-1881.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		60EFCE7F1BA232C3002C70C3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -453,23 +479,110 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		60EFCEC81BA45680002C70C3 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		60EFCED51BA456A0002C70C3 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0466AF6429A033000B5C9658 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		12B54A3F8867BC88565A7D53 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Elasticity/Pods-Elasticity-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7788D33FC671702016E15405 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A70FB622BB6D47FF37A9100B /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ElastiTV/Pods-ElastiTV-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC49ABD354BDB87FC556EBD5 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Elasticity/Pods-Elasticity-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE3847289BE59B02F699C732 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ElastiTV/Pods-ElastiTV-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		60D2F1E31BA4A68D00AD63F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60D2F1ED1BA4A68D00AD63F6 /* ServiceProvider.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		60EFCE7D1BA232C3002C70C3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -491,6 +604,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60AF28921BA4858500FF7238 /* ARDebugButton.swift in Sources */,
 				60EFCEAD1BA32D83002C70C3 /* ViewController.swift in Sources */,
 				60EFCEAB1BA32D83002C70C3 /* AppDelegate.swift in Sources */,
 			);
@@ -504,23 +618,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		60EFCEC51BA45680002C70C3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		60EFCED21BA456A0002C70C3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		60D2F1F01BA4A68D00AD63F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60D2F1E61BA4A68D00AD63F6 /* TopShelfExtension */;
+			targetProxy = 60D2F1EF1BA4A68D00AD63F6 /* PBXContainerItemProxy */;
+		};
 		60EFCE971BA232C3002C70C3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 60EFCE801BA232C3002C70C3 /* Elasticity */;
@@ -530,11 +635,6 @@
 			isa = PBXTargetDependency;
 			target = 60EFCEA71BA32D83002C70C3 /* ElastiTV */;
 			targetProxy = 60EFCEB91BA32D83002C70C3 /* PBXContainerItemProxy */;
-		};
-		60EFCEDD1BA456A0002C70C3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 60EFCED61BA456A0002C70C3 /* ElastictityKitiOS */;
-			targetProxy = 60EFCEDC1BA456A0002C70C3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -566,6 +666,36 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		60D2F1F21BA4A68D00AD63F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
+				INFOPLIST_FILE = TopShelfExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.artsy.ElastiTV.TopShelfExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		60D2F1F31BA4A68D00AD63F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
+				INFOPLIST_FILE = TopShelfExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.artsy.ElastiTV.TopShelfExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
 		60EFCE9C1BA232C3002C70C3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -649,6 +779,7 @@
 		};
 		60EFCE9F1BA232C3002C70C3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E544A1CC6357E2C912CB4814 /* Pods-Elasticity.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Elasticity/Info.plist;
@@ -661,6 +792,7 @@
 		};
 		60EFCEA01BA232C3002C70C3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46D2CD3840A59FEA2FF2073A /* Pods-Elasticity.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Elasticity/Info.plist;
@@ -697,12 +829,14 @@
 		};
 		60EFCEC01BA32D83002C70C3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1516C62DE0189DDE2C0F1E2 /* Pods-ElastiTV.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_ENTITLEMENTS = ElastiTV/ElastiTV.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = ElastiTV/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.artsy.ElastiTV;
@@ -716,12 +850,14 @@
 		};
 		60EFCEC11BA32D83002C70C3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B3958E0FC254689C3A04A73 /* Pods-ElastiTV.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_ENTITLEMENTS = ElastiTV/ElastiTV.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = ElastiTV/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.artsy.ElastiTV;
@@ -761,93 +897,18 @@
 			};
 			name = Release;
 		};
-		60EFCECF1BA45680002C70C3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = ElasticityKitWatch/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = net.artsy.ElasticityKitWatch;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 4;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-				WATCHOS_DEPLOYMENT_TARGET = 2.0;
-			};
-			name = Debug;
-		};
-		60EFCED01BA45680002C70C3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = ElasticityKitWatch/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = net.artsy.ElasticityKitWatch;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 4;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-				WATCHOS_DEPLOYMENT_TARGET = 2.0;
-			};
-			name = Release;
-		};
-		60EFCEE11BA456A0002C70C3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = ElastictityKitiOS/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = net.artsy.ElastictityKitiOS;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		60EFCEE21BA456A0002C70C3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = ElastictityKitiOS/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = net.artsy.ElastictityKitiOS;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		60D2F1F41BA4A68D00AD63F6 /* Build configuration list for PBXNativeTarget "TopShelfExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60D2F1F21BA4A68D00AD63F6 /* Debug */,
+				60D2F1F31BA4A68D00AD63F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		60EFCE7C1BA232C3002C70C3 /* Build configuration list for PBXProject "Elasticity" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -892,22 +953,6 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
-		};
-		60EFCED11BA45680002C70C3 /* Build configuration list for PBXNativeTarget "ElasticityKitWatch" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				60EFCECF1BA45680002C70C3 /* Debug */,
-				60EFCED01BA45680002C70C3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		60EFCEE01BA456A0002C70C3 /* Build configuration list for PBXNativeTarget "ElastictityKitiOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				60EFCEE11BA456A0002C70C3 /* Debug */,
-				60EFCEE21BA456A0002C70C3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
