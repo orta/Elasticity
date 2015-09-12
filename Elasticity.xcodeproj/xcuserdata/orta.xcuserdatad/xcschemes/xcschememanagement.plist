@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>ElastiTV.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>Elasticity.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -18,6 +23,16 @@
 			<true/>
 		</dict>
 		<key>60EFCE941BA232C3002C70C3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>60EFCEA71BA32D83002C70C3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>60EFCEB71BA32D83002C70C3</key>
 		<dict>
 			<key>primary</key>
 			<true/>

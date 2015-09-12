@@ -13,6 +13,11 @@
 		60EFCE8C1BA232C3002C70C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60EFCE8B1BA232C3002C70C3 /* Assets.xcassets */; };
 		60EFCE8F1BA232C3002C70C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60EFCE8D1BA232C3002C70C3 /* LaunchScreen.storyboard */; };
 		60EFCE9A1BA232C3002C70C3 /* ElasticityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EFCE991BA232C3002C70C3 /* ElasticityTests.swift */; };
+		60EFCEAB1BA32D83002C70C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EFCEAA1BA32D83002C70C3 /* AppDelegate.swift */; };
+		60EFCEAD1BA32D83002C70C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EFCEAC1BA32D83002C70C3 /* ViewController.swift */; };
+		60EFCEB01BA32D83002C70C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60EFCEAE1BA32D83002C70C3 /* Main.storyboard */; };
+		60EFCEB21BA32D83002C70C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60EFCEB11BA32D83002C70C3 /* Assets.xcassets */; };
+		60EFCEBD1BA32D83002C70C3 /* ElastiTVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EFCEBC1BA32D83002C70C3 /* ElastiTVTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -22,6 +27,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 60EFCE801BA232C3002C70C3;
 			remoteInfo = Elasticity;
+		};
+		60EFCEB91BA32D83002C70C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60EFCE791BA232C3002C70C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60EFCEA71BA32D83002C70C3;
+			remoteInfo = ElastiTV;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -36,6 +48,15 @@
 		60EFCE951BA232C3002C70C3 /* ElasticityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElasticityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		60EFCE991BA232C3002C70C3 /* ElasticityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElasticityTests.swift; sourceTree = "<group>"; };
 		60EFCE9B1BA232C3002C70C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60EFCEA81BA32D83002C70C3 /* ElastiTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ElastiTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		60EFCEAA1BA32D83002C70C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		60EFCEAC1BA32D83002C70C3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		60EFCEAF1BA32D83002C70C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		60EFCEB11BA32D83002C70C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		60EFCEB31BA32D83002C70C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60EFCEB81BA32D83002C70C3 /* ElastiTVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElastiTVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		60EFCEBC1BA32D83002C70C3 /* ElastiTVTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElastiTVTests.swift; sourceTree = "<group>"; };
+		60EFCEBE1BA32D83002C70C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +74,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		60EFCEA51BA32D83002C70C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60EFCEB51BA32D83002C70C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -61,6 +96,8 @@
 			children = (
 				60EFCE831BA232C3002C70C3 /* Elasticity */,
 				60EFCE981BA232C3002C70C3 /* ElasticityTests */,
+				60EFCEA91BA32D83002C70C3 /* ElastiTV */,
+				60EFCEBB1BA32D83002C70C3 /* ElastiTVTests */,
 				60EFCE821BA232C3002C70C3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,6 +107,8 @@
 			children = (
 				60EFCE811BA232C3002C70C3 /* Elasticity.app */,
 				60EFCE951BA232C3002C70C3 /* ElasticityTests.xctest */,
+				60EFCEA81BA32D83002C70C3 /* ElastiTV.app */,
+				60EFCEB81BA32D83002C70C3 /* ElastiTVTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,6 +133,27 @@
 				60EFCE9B1BA232C3002C70C3 /* Info.plist */,
 			);
 			path = ElasticityTests;
+			sourceTree = "<group>";
+		};
+		60EFCEA91BA32D83002C70C3 /* ElastiTV */ = {
+			isa = PBXGroup;
+			children = (
+				60EFCEAA1BA32D83002C70C3 /* AppDelegate.swift */,
+				60EFCEAC1BA32D83002C70C3 /* ViewController.swift */,
+				60EFCEAE1BA32D83002C70C3 /* Main.storyboard */,
+				60EFCEB11BA32D83002C70C3 /* Assets.xcassets */,
+				60EFCEB31BA32D83002C70C3 /* Info.plist */,
+			);
+			path = ElastiTV;
+			sourceTree = "<group>";
+		};
+		60EFCEBB1BA32D83002C70C3 /* ElastiTVTests */ = {
+			isa = PBXGroup;
+			children = (
+				60EFCEBC1BA32D83002C70C3 /* ElastiTVTests.swift */,
+				60EFCEBE1BA32D83002C70C3 /* Info.plist */,
+			);
+			path = ElastiTVTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,6 +194,41 @@
 			productReference = 60EFCE951BA232C3002C70C3 /* ElasticityTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		60EFCEA71BA32D83002C70C3 /* ElastiTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60EFCEBF1BA32D83002C70C3 /* Build configuration list for PBXNativeTarget "ElastiTV" */;
+			buildPhases = (
+				60EFCEA41BA32D83002C70C3 /* Sources */,
+				60EFCEA51BA32D83002C70C3 /* Frameworks */,
+				60EFCEA61BA32D83002C70C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ElastiTV;
+			productName = ElastiTV;
+			productReference = 60EFCEA81BA32D83002C70C3 /* ElastiTV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		60EFCEB71BA32D83002C70C3 /* ElastiTVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60EFCEC21BA32D83002C70C3 /* Build configuration list for PBXNativeTarget "ElastiTVTests" */;
+			buildPhases = (
+				60EFCEB41BA32D83002C70C3 /* Sources */,
+				60EFCEB51BA32D83002C70C3 /* Frameworks */,
+				60EFCEB61BA32D83002C70C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60EFCEBA1BA32D83002C70C3 /* PBXTargetDependency */,
+			);
+			name = ElastiTVTests;
+			productName = ElastiTVTests;
+			productReference = 60EFCEB81BA32D83002C70C3 /* ElastiTVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -149,6 +244,14 @@
 					60EFCE941BA232C3002C70C3 = {
 						CreatedOnToolsVersion = 7.1;
 						TestTargetID = 60EFCE801BA232C3002C70C3;
+					};
+					60EFCEA71BA32D83002C70C3 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 23KMWZ572J;
+					};
+					60EFCEB71BA32D83002C70C3 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 60EFCEA71BA32D83002C70C3;
 					};
 				};
 			};
@@ -167,6 +270,8 @@
 			targets = (
 				60EFCE801BA232C3002C70C3 /* Elasticity */,
 				60EFCE941BA232C3002C70C3 /* ElasticityTests */,
+				60EFCEA71BA32D83002C70C3 /* ElastiTV */,
+				60EFCEB71BA32D83002C70C3 /* ElastiTVTests */,
 			);
 		};
 /* End PBXProject section */
@@ -183,6 +288,22 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		60EFCE931BA232C3002C70C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60EFCEA61BA32D83002C70C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60EFCEB21BA32D83002C70C3 /* Assets.xcassets in Resources */,
+				60EFCEB01BA32D83002C70C3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60EFCEB61BA32D83002C70C3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -209,6 +330,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		60EFCEA41BA32D83002C70C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60EFCEAD1BA32D83002C70C3 /* ViewController.swift in Sources */,
+				60EFCEAB1BA32D83002C70C3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60EFCEB41BA32D83002C70C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60EFCEBD1BA32D83002C70C3 /* ElastiTVTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -216,6 +354,11 @@
 			isa = PBXTargetDependency;
 			target = 60EFCE801BA232C3002C70C3 /* Elasticity */;
 			targetProxy = 60EFCE961BA232C3002C70C3 /* PBXContainerItemProxy */;
+		};
+		60EFCEBA1BA32D83002C70C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60EFCEA71BA32D83002C70C3 /* ElastiTV */;
+			targetProxy = 60EFCEB91BA32D83002C70C3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -234,6 +377,14 @@
 				60EFCE8E1BA232C3002C70C3 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		60EFCEAE1BA32D83002C70C3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60EFCEAF1BA32D83002C70C3 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -325,6 +476,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Elasticity/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.artsy.Elasticity;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -336,6 +488,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Elasticity/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.artsy.Elasticity;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -366,6 +519,66 @@
 			};
 			name = Release;
 		};
+		60EFCEC01BA32D83002C70C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = ElastiTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.artsy.ElastiTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		60EFCEC11BA32D83002C70C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = ElastiTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.artsy.ElastiTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+		60EFCEC31BA32D83002C70C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ElastiTVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.artsy.ElastiTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ElastiTV.app/ElastiTV";
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		60EFCEC41BA32D83002C70C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ElastiTVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.artsy.ElastiTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ElastiTV.app/ElastiTV";
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -385,6 +598,7 @@
 				60EFCEA01BA232C3002C70C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		60EFCEA11BA232C3002C70C3 /* Build configuration list for PBXNativeTarget "ElasticityTests" */ = {
 			isa = XCConfigurationList;
@@ -393,6 +607,25 @@
 				60EFCEA31BA232C3002C70C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60EFCEBF1BA32D83002C70C3 /* Build configuration list for PBXNativeTarget "ElastiTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60EFCEC01BA32D83002C70C3 /* Debug */,
+				60EFCEC11BA32D83002C70C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60EFCEC21BA32D83002C70C3 /* Build configuration list for PBXNativeTarget "ElastiTVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60EFCEC31BA32D83002C70C3 /* Debug */,
+				60EFCEC41BA32D83002C70C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
