@@ -1,5 +1,5 @@
 PODS:
-  - Artsy+Authentication (1.0.0):
+  - Artsy+Authentication (1.1.0):
     - ISO8601DateFormatter
     - LVTwitterOAuthClient
     - NSURL+QueryDictionary
@@ -12,14 +12,16 @@ PODS:
   - NSURL+QueryDictionary (1.1.0)
 
 DEPENDENCIES:
-  - Artsy+Authentication (from `/Users/orta/dev/ios/libs/Artsy_Authentication`)
+  - Artsy+Authentication (from `https://github.com/artsy/Artsy-Authentication.git`,
+    branch `tvos`)
   - Artsy+UIColors (from `https://github.com/artsy/Artsy-UIColors.git`, branch `tvos`)
   - Artsy+UIFonts (from `https://github.com/artsy/Artsy-UIFonts.git`, branch `old_fonts_new_lib_tv`)
   - Keys (from `Pods/CocoaPodsKeys`)
 
 EXTERNAL SOURCES:
   Artsy+Authentication:
-    :path: "/Users/orta/dev/ios/libs/Artsy_Authentication"
+    :branch: tvos
+    :git: https://github.com/artsy/Artsy-Authentication.git
   Artsy+UIColors:
     :branch: tvos
     :git: https://github.com/artsy/Artsy-UIColors.git
@@ -30,6 +32,9 @@ EXTERNAL SOURCES:
     :path: Pods/CocoaPodsKeys
 
 CHECKOUT OPTIONS:
+  Artsy+Authentication:
+    :commit: 0c4e4f29d6f2f1d158d4dac68c35c27d7edf9959
+    :git: https://github.com/artsy/Artsy-Authentication.git
   Artsy+UIColors:
     :commit: 2b924b064b2e942ab299a042732c8ee94804f717
     :git: https://github.com/artsy/Artsy-UIColors.git
@@ -38,7 +43,7 @@ CHECKOUT OPTIONS:
     :git: https://github.com/artsy/Artsy-UIFonts.git
 
 SPEC CHECKSUMS:
-  Artsy+Authentication: dc7c014eddfac44266827c720628c8ba9b6059c2
+  Artsy+Authentication: c3de6ec593e66e1645e3e402b23f5d4a94a09d38
   Artsy+UIColors: 086dc3cf3fa8672f765302002e68969c83b202b2
   Artsy+UIFonts: 28db6b1c8022fc3bc2e62db68f32381e1f33aa6f
   EDColor: c83f9a61f9f9b3c23d541f1feb561558e29cb088

@@ -14,7 +14,7 @@ plugin 'cocoapods-keys', {
 }
 
 def app_pods()
-  
+
 
   pod 'Artsy+UIColors', :git => "https://github.com/artsy/Artsy-UIColors.git", :branch => "tvos"
 
@@ -28,8 +28,8 @@ def app_pods()
 end
 
 def platform_pods()
-  # pod 'Artsy+Authentication', :git => "https://github.com/artsy/Artsy-Authentication.git", :branch => "tvos"
-  pod "Artsy+Authentication", :path => "/Users/orta/dev/ios/libs/Artsy_Authentication"
+  pod 'Artsy+Authentication', :git => "https://github.com/artsy/Artsy-Authentication.git", :branch => "tvos"
+  # pod "Artsy+Authentication", :path => "/Users/orta/dev/ios/libs/Artsy_Authentication"
 end
 
 target 'Elasticity' do
