@@ -17,6 +17,7 @@ def app_pods()
 
 
   pod 'Artsy+UIColors', :git => "https://github.com/artsy/Artsy-UIColors.git", :branch => "tvos"
+  pod 'Artsy+UILabels', :git => "https://github.com/artsy/Artsy-UILabels.git"
 
   # TODO: Update OSS Fonts for tvOS
 
@@ -29,7 +30,7 @@ end
 
 def platform_pods()
   pod 'Artsy+Authentication', :git => "https://github.com/artsy/Artsy-Authentication.git", :branch => "tvos"
-  # pod "Artsy+Authentication", :path => "/Users/orta/dev/ios/libs/Artsy_Authentication"
+  pod 'Hyperdrive'
 end
 
 target 'Elasticity' do
@@ -38,12 +39,12 @@ end
 
 target 'ElastiTV' do
   app_pods
-  platform_pods
 end
-#
-# target 'ElasticityKitWatch' do
-#   platform_pods
-# end
+
+target 'ElasticityKit' do
+    platform_pods
+end
+
 #
 # target 'ElastictityKitiOS' do
 #   platform_pods

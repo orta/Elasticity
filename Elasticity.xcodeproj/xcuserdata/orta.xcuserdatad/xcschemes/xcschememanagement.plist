@@ -7,12 +7,12 @@
 		<key>ElastiTV.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>1</integer>
+			<integer>2</integer>
 		</dict>
 		<key>ElastiTV.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>2</integer>
+			<integer>4</integer>
 		</dict>
 		<key>Elasticity.xcscheme</key>
 		<dict>
@@ -24,15 +24,20 @@
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
+		<key>ElasticityKit.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>15</integer>
+		</dict>
 		<key>ElasticityKitWatch.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>2</integer>
+			<integer>3</integer>
 		</dict>
 		<key>ElastictityKitiOS.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>3</integer>
+			<integer>5</integer>
 		</dict>
 		<key>TopShelfExtension.xcscheme</key>
 		<dict>
@@ -42,6 +47,11 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>60CC93BA1BA5F2C400119AEA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>60D2F1E61BA4A68D00AD63F6</key>
 		<dict>
 			<key>primary</key>

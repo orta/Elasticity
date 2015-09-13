@@ -7,11 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4CA41567BC3959D01777AEE6 /* Pods_ElasticityKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5A3B7A39926E1B2AAEB6C1C /* Pods_ElasticityKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		60AF28921BA4858500FF7238 /* ARDebugButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60AF28911BA4858500FF7238 /* ARDebugButton.swift */; };
+		60CC93BE1BA5F2C400119AEA /* ElasticityKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 60CC93BD1BA5F2C400119AEA /* ElasticityKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60CC93C21BA5F2C400119AEA /* ElasticityKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60CC93BB1BA5F2C400119AEA /* ElasticityKit.framework */; };
+		60CC93C31BA5F2C400119AEA /* ElasticityKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 60CC93BB1BA5F2C400119AEA /* ElasticityKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		60CC93CB1BA6015000119AEA /* Slingshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60CC93CA1BA6015000119AEA /* Slingshot.swift */; };
+		60CC93CD1BA6086800119AEA /* ArtsyDrive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60CC93CC1BA6086800119AEA /* ArtsyDrive.swift */; };
 		60D2F1EA1BA4A68D00AD63F6 /* TVServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60D2F1E91BA4A68D00AD63F6 /* TVServices.framework */; };
 		60D2F1ED1BA4A68D00AD63F6 /* ServiceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D2F1EC1BA4A68D00AD63F6 /* ServiceProvider.swift */; };
 		60D2F1F11BA4A68D00AD63F6 /* TopShelfExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 60D2F1E71BA4A68D00AD63F6 /* TopShelfExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		60D2F1F71BA4A85F00AD63F6 /* pierre-auguste-renoir-two-sisters-on-the-terrace-1881.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 60D2F1F61BA4A85F00AD63F6 /* pierre-auguste-renoir-two-sisters-on-the-terrace-1881.jpg */; };
 		60EFCE851BA232C3002C70C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EFCE841BA232C3002C70C3 /* AppDelegate.swift */; };
 		60EFCE871BA232C3002C70C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EFCE861BA232C3002C70C3 /* ViewController.swift */; };
 		60EFCE8A1BA232C3002C70C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60EFCE881BA232C3002C70C3 /* Main.storyboard */; };
@@ -28,6 +33,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		60CC93C01BA5F2C400119AEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60EFCE791BA232C3002C70C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60CC93BA1BA5F2C400119AEA;
+			remoteInfo = ElasticityKit;
+		};
 		60D2F1EF1BA4A68D00AD63F6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 60EFCE791BA232C3002C70C3 /* Project object */;
@@ -52,6 +64,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		60CC93C71BA5F2C400119AEA /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				60CC93C31BA5F2C400119AEA /* ElasticityKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		60D2F1F51BA4A68D00AD63F6 /* Embed App Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -80,11 +103,16 @@
 		3B3958E0FC254689C3A04A73 /* Pods-ElastiTV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElastiTV.release.xcconfig"; path = "Pods/Target Support Files/Pods-ElastiTV/Pods-ElastiTV.release.xcconfig"; sourceTree = "<group>"; };
 		46D2CD3840A59FEA2FF2073A /* Pods-Elasticity.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Elasticity.release.xcconfig"; path = "Pods/Target Support Files/Pods-Elasticity/Pods-Elasticity.release.xcconfig"; sourceTree = "<group>"; };
 		60AF28911BA4858500FF7238 /* ARDebugButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARDebugButton.swift; sourceTree = "<group>"; };
+		60CC93BB1BA5F2C400119AEA /* ElasticityKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ElasticityKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		60CC93BD1BA5F2C400119AEA /* ElasticityKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ElasticityKit.h; sourceTree = "<group>"; };
+		60CC93BF1BA5F2C400119AEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60CC93CA1BA6015000119AEA /* Slingshot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Slingshot.swift; sourceTree = "<group>"; };
+		60CC93CC1BA6086800119AEA /* ArtsyDrive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtsyDrive.swift; sourceTree = "<group>"; };
 		60D2F1E71BA4A68D00AD63F6 /* TopShelfExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TopShelfExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		60D2F1E91BA4A68D00AD63F6 /* TVServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TVServices.framework; path = Library/Frameworks/TVServices.framework; sourceTree = DEVELOPER_DIR; };
 		60D2F1EC1BA4A68D00AD63F6 /* ServiceProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceProvider.swift; sourceTree = "<group>"; };
 		60D2F1EE1BA4A68D00AD63F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		60D2F1F61BA4A85F00AD63F6 /* pierre-auguste-renoir-two-sisters-on-the-terrace-1881.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pierre-auguste-renoir-two-sisters-on-the-terrace-1881.jpg"; sourceTree = "<group>"; };
+		60EBE76C14F25995E2FDF486 /* Pods-ElasticityKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElasticityKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-ElasticityKit/Pods-ElasticityKit.release.xcconfig"; sourceTree = "<group>"; };
 		60EFCE811BA232C3002C70C3 /* Elasticity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Elasticity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60EFCE841BA232C3002C70C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		60EFCE861BA232C3002C70C3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -104,17 +132,23 @@
 		60EFCEB81BA32D83002C70C3 /* ElastiTVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElastiTVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		60EFCEBC1BA32D83002C70C3 /* ElastiTVTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElastiTVTests.swift; sourceTree = "<group>"; };
 		60EFCEBE1BA32D83002C70C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		60EFCECC1BA45680002C70C3 /* ElasticityKitWatch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ElasticityKitWatch.h; sourceTree = "<group>"; };
-		60EFCECE1BA45680002C70C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		60EFCED91BA456A0002C70C3 /* ElastictityKitiOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ElastictityKitiOS.h; sourceTree = "<group>"; };
-		60EFCEDB1BA456A0002C70C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		60EFCEE41BA45DC3002C70C3 /* ElastiTV.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = ElastiTV.entitlements; sourceTree = "<group>"; };
+		95F34F86C56CB6C03B0C7B45 /* Pods-ElasticityKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElasticityKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ElasticityKit/Pods-ElasticityKit.debug.xcconfig"; sourceTree = "<group>"; };
 		9A4F47617E28898D0A0319D8 /* Pods_ElastiTV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ElastiTV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5A3B7A39926E1B2AAEB6C1C /* Pods_ElasticityKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ElasticityKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1516C62DE0189DDE2C0F1E2 /* Pods-ElastiTV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElastiTV.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ElastiTV/Pods-ElastiTV.debug.xcconfig"; sourceTree = "<group>"; };
 		E544A1CC6357E2C912CB4814 /* Pods-Elasticity.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Elasticity.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Elasticity/Pods-Elasticity.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		60CC93B71BA5F2C400119AEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CA41567BC3959D01777AEE6 /* Pods_ElasticityKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		60D2F1E41BA4A68D00AD63F6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -142,6 +176,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60CC93C21BA5F2C400119AEA /* ElasticityKit.framework in Frameworks */,
 				B52D2BADD3B2580CA2CD1E18 /* Pods_ElastiTV.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -156,12 +191,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		60CC93BC1BA5F2C400119AEA /* ElasticityKit */ = {
+			isa = PBXGroup;
+			children = (
+				60CC93BD1BA5F2C400119AEA /* ElasticityKit.h */,
+				60CC93BF1BA5F2C400119AEA /* Info.plist */,
+				60CC93CC1BA6086800119AEA /* ArtsyDrive.swift */,
+			);
+			path = ElasticityKit;
+			sourceTree = "<group>";
+		};
 		60D2F1E81BA4A68D00AD63F6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				60D2F1E91BA4A68D00AD63F6 /* TVServices.framework */,
 				9A4F47617E28898D0A0319D8 /* Pods_ElastiTV.framework */,
 				0EDD5B26A5803F9BDE258D03 /* Pods_Elasticity.framework */,
+				A5A3B7A39926E1B2AAEB6C1C /* Pods_ElasticityKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -169,7 +215,6 @@
 		60D2F1EB1BA4A68D00AD63F6 /* TopShelfExtension */ = {
 			isa = PBXGroup;
 			children = (
-				60D2F1F61BA4A85F00AD63F6 /* pierre-auguste-renoir-two-sisters-on-the-terrace-1881.jpg */,
 				60D2F1EC1BA4A68D00AD63F6 /* ServiceProvider.swift */,
 				60D2F1EE1BA4A68D00AD63F6 /* Info.plist */,
 			);
@@ -183,9 +228,8 @@
 				60EFCE981BA232C3002C70C3 /* ElasticityTests */,
 				60EFCEA91BA32D83002C70C3 /* ElastiTV */,
 				60EFCEBB1BA32D83002C70C3 /* ElastiTVTests */,
-				60EFCECB1BA45680002C70C3 /* ElasticityKitWatch */,
-				60EFCED81BA456A0002C70C3 /* ElastictityKitiOS */,
 				60D2F1EB1BA4A68D00AD63F6 /* TopShelfExtension */,
+				60CC93BC1BA5F2C400119AEA /* ElasticityKit */,
 				60D2F1E81BA4A68D00AD63F6 /* Frameworks */,
 				60EFCE821BA232C3002C70C3 /* Products */,
 				7DBD318F854B1B2D883FD688 /* Pods */,
@@ -200,6 +244,7 @@
 				60EFCEA81BA32D83002C70C3 /* ElastiTV.app */,
 				60EFCEB81BA32D83002C70C3 /* ElastiTVTests.xctest */,
 				60D2F1E71BA4A68D00AD63F6 /* TopShelfExtension.appex */,
+				60CC93BB1BA5F2C400119AEA /* ElasticityKit.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -236,6 +281,7 @@
 				60EFCEB11BA32D83002C70C3 /* Assets.xcassets */,
 				60EFCEB31BA32D83002C70C3 /* Info.plist */,
 				60AF28911BA4858500FF7238 /* ARDebugButton.swift */,
+				60CC93CA1BA6015000119AEA /* Slingshot.swift */,
 			);
 			path = ElastiTV;
 			sourceTree = "<group>";
@@ -249,24 +295,6 @@
 			path = ElastiTVTests;
 			sourceTree = "<group>";
 		};
-		60EFCECB1BA45680002C70C3 /* ElasticityKitWatch */ = {
-			isa = PBXGroup;
-			children = (
-				60EFCECC1BA45680002C70C3 /* ElasticityKitWatch.h */,
-				60EFCECE1BA45680002C70C3 /* Info.plist */,
-			);
-			path = ElasticityKitWatch;
-			sourceTree = "<group>";
-		};
-		60EFCED81BA456A0002C70C3 /* ElastictityKitiOS */ = {
-			isa = PBXGroup;
-			children = (
-				60EFCED91BA456A0002C70C3 /* ElastictityKitiOS.h */,
-				60EFCEDB1BA456A0002C70C3 /* Info.plist */,
-			);
-			path = ElastictityKitiOS;
-			sourceTree = "<group>";
-		};
 		7DBD318F854B1B2D883FD688 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -274,13 +302,46 @@
 				3B3958E0FC254689C3A04A73 /* Pods-ElastiTV.release.xcconfig */,
 				E544A1CC6357E2C912CB4814 /* Pods-Elasticity.debug.xcconfig */,
 				46D2CD3840A59FEA2FF2073A /* Pods-Elasticity.release.xcconfig */,
+				95F34F86C56CB6C03B0C7B45 /* Pods-ElasticityKit.debug.xcconfig */,
+				60EBE76C14F25995E2FDF486 /* Pods-ElasticityKit.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		60CC93B81BA5F2C400119AEA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60CC93BE1BA5F2C400119AEA /* ElasticityKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		60CC93BA1BA5F2C400119AEA /* ElasticityKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60CC93C41BA5F2C400119AEA /* Build configuration list for PBXNativeTarget "ElasticityKit" */;
+			buildPhases = (
+				E519E4AC8CEC6C2EBEC32D33 /* Check Pods Manifest.lock */,
+				60CC93B61BA5F2C400119AEA /* Sources */,
+				60CC93B71BA5F2C400119AEA /* Frameworks */,
+				60CC93B81BA5F2C400119AEA /* Headers */,
+				60CC93B91BA5F2C400119AEA /* Resources */,
+				6355B0AC703E23AEA66A2BA1 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ElasticityKit;
+			productName = ElasticityKit;
+			productReference = 60CC93BB1BA5F2C400119AEA /* ElasticityKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		60D2F1E61BA4A68D00AD63F6 /* TopShelfExtension */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 60D2F1F41BA4A68D00AD63F6 /* Build configuration list for PBXNativeTarget "TopShelfExtension" */;
@@ -348,11 +409,13 @@
 				60D2F1F51BA4A68D00AD63F6 /* Embed App Extensions */,
 				A70FB622BB6D47FF37A9100B /* Embed Pods Frameworks */,
 				FE3847289BE59B02F699C732 /* Copy Pods Resources */,
+				60CC93C71BA5F2C400119AEA /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				60D2F1F01BA4A68D00AD63F6 /* PBXTargetDependency */,
+				60CC93C11BA5F2C400119AEA /* PBXTargetDependency */,
 			);
 			name = ElastiTV;
 			productName = ElastiTV;
@@ -387,6 +450,10 @@
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = Artsy;
 				TargetAttributes = {
+					60CC93BA1BA5F2C400119AEA = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 23KMWZ572J;
+					};
 					60D2F1E61BA4A68D00AD63F6 = {
 						CreatedOnToolsVersion = 7.1;
 						DevelopmentTeam = 23KMWZ572J;
@@ -434,16 +501,23 @@
 				60EFCEA71BA32D83002C70C3 /* ElastiTV */,
 				60EFCEB71BA32D83002C70C3 /* ElastiTVTests */,
 				60D2F1E61BA4A68D00AD63F6 /* TopShelfExtension */,
+				60CC93BA1BA5F2C400119AEA /* ElasticityKit */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		60CC93B91BA5F2C400119AEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		60D2F1E51BA4A68D00AD63F6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60D2F1F71BA4A85F00AD63F6 /* pierre-auguste-renoir-two-sisters-on-the-terrace-1881.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -513,6 +587,21 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Elasticity/Pods-Elasticity-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		6355B0AC703E23AEA66A2BA1 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ElasticityKit/Pods-ElasticityKit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		7788D33FC671702016E15405 /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -558,6 +647,21 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Elasticity/Pods-Elasticity-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		E519E4AC8CEC6C2EBEC32D33 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 		FE3847289BE59B02F699C732 /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -576,6 +680,14 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		60CC93B61BA5F2C400119AEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60CC93CD1BA6086800119AEA /* ArtsyDrive.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		60D2F1E31BA4A68D00AD63F6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -606,6 +718,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				60AF28921BA4858500FF7238 /* ARDebugButton.swift in Sources */,
+				60CC93CB1BA6015000119AEA /* Slingshot.swift in Sources */,
 				60EFCEAD1BA32D83002C70C3 /* ViewController.swift in Sources */,
 				60EFCEAB1BA32D83002C70C3 /* AppDelegate.swift in Sources */,
 			);
@@ -622,6 +735,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		60CC93C11BA5F2C400119AEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60CC93BA1BA5F2C400119AEA /* ElasticityKit */;
+			targetProxy = 60CC93C01BA5F2C400119AEA /* PBXContainerItemProxy */;
+		};
 		60D2F1F01BA4A68D00AD63F6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 60D2F1E61BA4A68D00AD63F6 /* TopShelfExtension */;
@@ -667,6 +785,59 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		60CC93C51BA5F2C400119AEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95F34F86C56CB6C03B0C7B45 /* Pods-ElasticityKit.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ElasticityKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.artsy.ElasticityKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		60CC93C61BA5F2C400119AEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60EBE76C14F25995E2FDF486 /* Pods-ElasticityKit.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ElasticityKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.artsy.ElasticityKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		60D2F1F21BA4A68D00AD63F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -901,6 +1072,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		60CC93C41BA5F2C400119AEA /* Build configuration list for PBXNativeTarget "ElasticityKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60CC93C51BA5F2C400119AEA /* Debug */,
+				60CC93C61BA5F2C400119AEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		60D2F1F41BA4A68D00AD63F6 /* Build configuration list for PBXNativeTarget "TopShelfExtension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

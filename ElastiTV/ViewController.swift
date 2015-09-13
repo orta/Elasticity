@@ -1,13 +1,9 @@
-//
-//  ViewController.swift
-//  ElastiTV
-//
-//  Created by Orta on 9/11/15.
-//  Copyright © 2015 Artsy. All rights reserved.
-//
 
 import UIKit
 import TVServices
+import ElasticityKit
+import Artsy_UIFonts
+import Representor
 
 class ViewController: UIViewController {
 
@@ -15,39 +11,19 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         NSNotificationCenter.defaultCenter().postNotificationName(TVTopShelfItemsDidChangeNotification, object: nil)
         // Do any additional setup after loading the view, typically from a nib.
-    }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
+        let drive = ArtsyDrive(token: "Asdasd")
 
-    override func pressesBegan(presses: Set<UIPress>, withEvent event: UIPressesEvent?) {
-        for item in presses {
-            if item.type == UIPressType.Select {
-                self.view.backgroundColor = UIColor.greenColor()
+        drive.enter() { result in
+            switch result {
+            case .Success(let representor):
+                print("The API has offered us the following transitions: \(representor.transitions)")
+
+            case .Failure(let error):
+                print("Unfortunately there was an error: \(error)")
             }
         }
-    }
-    
-    override func pressesEnded(presses: Set<UIPress>, withEvent event: UIPressesEvent?) {
-        for item in presses {
-            if item.type == UIPressType.Select {
-                self.view.backgroundColor = UIColor.whiteColor()
-            }
-        }
-    }
-    
-    override func pressesChanged(presses: Set<UIPress>, withEvent event: UIPressesEvent?) {
-        // ignored
-    }
-    
-    override func pressesCancelled(presses: Set<UIPress>, withEvent event: UIPressesEvent?) {
-        for item in presses {
-            if item.type == UIPressType.Select {
-                self.view.backgroundColor = UIColor.whiteColor()
-            }
-        }
+
     }
 
 }

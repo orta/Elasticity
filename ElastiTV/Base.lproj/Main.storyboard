@@ -35,6 +35,11 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <customObject id="soa-Kx-uKs" customClass="Slingshot" customModule="ElastiTV" customModuleProvider="target">
+                    <connections>
+                        <outlet property="image" destination="xWT-1y-LtJ" id="uu9-HM-EGE"/>
+                    </connections>
+                </customObject>
             </objects>
             <point key="canvasLocation" x="-400" y="-1019"/>
         </scene>
